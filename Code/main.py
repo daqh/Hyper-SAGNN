@@ -633,7 +633,7 @@ print("train data amount", len(train_data))
 # potential_outliers = np.array(list(potential_outliers))
 
 
-with tf.Graph().as_default(), tf.Session() as session:
+with tf.Graph().as_default(), tf.compat.v1.Session() as session:
     with tf.device("/cpu:0"):
         if args.feature == 'walk':
             # Note that for this part, the word2vec still takes sentences with

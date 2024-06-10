@@ -1,0 +1,8 @@
+torch==2.3.0
+torch-cluster==1.6.3
+torch_geometric==2.5.3
+torch_sparse==0.6.18
+torch_geometric==2.5.3
+gensim==4.3.2
+tensorflow==2.16.1
+matplotlib==3.8.3
